@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+    /* topbar */
+
+.topbar {
+    background-color: white;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
