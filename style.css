@@ -15,7 +15,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: stretch;
     text-decoration: none;
     flex-direction: row;
     z-index: 100;
@@ -116,10 +116,15 @@ footer {
     color: #fff;
     font-size: small;
     list-style-type: none;
+    margin-top: 15px;
    
 
 }
 
 .column {
+    padding: 10px;
+}
 
+.titolo-footer {
+    color: #fff;
 }
