@@ -25,6 +25,7 @@
     list-style-type:none;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .topbar li {
@@ -92,8 +93,7 @@
 }
 /* FOOTER */
 
-.black {
-    height: 570px;
+footer {
     background-color: black;
 }
 
@@ -101,16 +101,25 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    gap: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 .list-footer {
     display: flex;
     flex-direction: column;
+    width: 150px;
 }
 
 .list-footer li {
     color: #fff;
     font-size: small;
     list-style-type: none;
+   
+
+}
+
+.column {
 
 }
