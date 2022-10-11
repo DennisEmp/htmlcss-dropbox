@@ -89,7 +89,7 @@
 /* MAIN */
 .container-main {
     /* debug */
-    height: 3000px;
+    /* height: 3000px; */
 }
 /* FOOTER */
 
@@ -153,6 +153,10 @@ footer {
     
 }
 
+.margin-pagina {
+    max-width: 1120px;
+    margin: 0 auto;
+}
 .container-1 {
     max-width: 1000px;
     margin: 150px auto;
@@ -167,16 +171,14 @@ footer {
 }
 
 .container-main {
-    max-width: 1600px;
     margin: 50px auto;
     display: flex;
-    justify-content: center;
-    align-items: calc(100% / 3);
+    justify-content: space-between;
     }
 
 .column-main {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
-
+    width: calc(100% / 3 - 20px);
 }
