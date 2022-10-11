@@ -128,3 +128,32 @@ footer {
 .titolo-footer {
     color: #fff;
 }
+
+#linea-footer {
+    width: 90px;
+    margin-left: 120px;
+    color: #fff;
+}
+
+.linea-footer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.bottom-footer {
+    color: #fff;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+.container-1 {
+    margin: 60px auto;
+    text-align: start;
+}
