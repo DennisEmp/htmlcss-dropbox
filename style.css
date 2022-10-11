@@ -154,6 +154,24 @@ footer {
 }
 
 .container-1 {
-    margin: 60px auto;
+    margin: 150px auto;
     text-align: start;
+    width: calc(100% - 300px);
+    margin-bottom: 50px;
+}
+
+.container-1 h2 {
+    font-size: 40px;
+}
+
+.container-1 i{
+    color: #0061ff;
+    font-weight: bold;
+}
+
+.container-2 {
+    margin: 0 auto;
+    width: calc(100% / 3);
+    border: 1px solid black;
+    padding: 30px;
 }
