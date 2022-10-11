@@ -153,25 +153,30 @@ footer {
     
 }
 
-.column-main {
+.container-1 {
+    max-width: 1000px;
     margin: 150px auto;
-    text-align: start;
-    width: calc(100% - 300px);
-    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
 }
 
-.column-main h2 {
-    font-size: 40px;
+.checkbox {
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
 }
 
-.column-main i{
-    color: #0061ff;
-    font-weight: bold;
-}
+.container-main {
+    max-width: 1600px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: calc(100% / 3);
+    }
 
-.container-2 {
-    margin: 0 auto;
-    width: calc(100% / 3);
+.column-main {
+    display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    padding: 30px;
+
 }
