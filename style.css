@@ -181,4 +181,12 @@ footer {
     flex-direction: column;
     border: 1px solid black;
     width: calc(100% / 3 - 20px);
+    padding: 25px;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.column-main i {
+    color: #0061ff;
 }
