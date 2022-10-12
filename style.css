@@ -268,3 +268,23 @@ footer {
 .h2-main5 a {
     font-size: 12px;
 }
+
+.container-main-6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-main-6 {
+    width: calc(100% / 3);
+}
+.middle-main-6 {
+    width: calc(100% / 3);
+}
+
+.right-main-6 {
+    width: calc(100% / 3);
+}
+
+.box img {
+    width: calc(100% / 4);
+}
