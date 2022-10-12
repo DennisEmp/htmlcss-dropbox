@@ -87,11 +87,7 @@
 }
 
 /* MAIN */
-.container-main {
-    /* debug */
-    /* height: 3000px; */
-}
-/* FOOTER */
+    /* FOOTER */
 
 footer {
     background-color: black;
@@ -276,6 +272,10 @@ footer {
 
 .left-main-6 {
     width: calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .middle-main-6 {
     width: calc(100% / 3);
@@ -287,4 +287,10 @@ footer {
 
 .box img {
     width: calc(100% / 4);
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
