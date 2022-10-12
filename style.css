@@ -234,6 +234,16 @@ footer {
     display: flex;
 }
 
-.card {
-    
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+}
+
+.card img {
+    width: 280px;
+}
+
+.txt-card {
+    font-size: 5px;
 }
